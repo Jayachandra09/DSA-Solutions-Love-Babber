@@ -22,3 +22,5 @@ def PalinArray(arr):
 arr = [111, 222, 333, 444, 555]
 result = PalinArray(arr)
 print(result)
+
+# Problem link : https://www.geeksforgeeks.org/problems/palindromic-array-1587115620/1?page=1&sortBy=submissions
