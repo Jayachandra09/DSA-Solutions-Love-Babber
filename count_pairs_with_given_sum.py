@@ -19,7 +19,6 @@ for i in range(len(arr)-1):
       c+=1
 return count
 
-
 #Driver code
 arr = [1,5,7,1]
 target = 6
