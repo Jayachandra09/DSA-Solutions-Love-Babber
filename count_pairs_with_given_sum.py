@@ -3,13 +3,14 @@ def PairsCount(arr, target):
   dic = {}
   for i in arr:
     if target-i in dic:
-    # 
+    # Dictionary will store the key and value. Key is i and value is 
       count+=dic[target-i]
     if i in dic:
       dic[i]+=1
     else:
       dic[i]=1
   return count
+  # Time complexity O(n)
 
 # We can use for loop in for loop to solve this but the time complexity is n^2
 count = 0
